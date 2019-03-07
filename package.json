@@ -10,7 +10,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  },
   "devDependencies": {
     "clean-webpack-plugin": "^2.0.0",
     "css-loader": "^2.1.0",
