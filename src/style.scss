@@ -1,9 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Fira Sans', 'Roboto', sans-serif;
 }
 
 body {
-  background-color: skyblue;
+  background: linear-gradient(150deg, #424242, #212121);
+
+  color: rgba(255, 255, 255, 0.9);
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+
+header {
+  height: 96px;
+  padding: 24px 32px;
+}
+
+.header-content {
+  display: flex;
+
+  align-items: center;
+}
+
+.logo-image {
+  height: 40px;
+  width: auto;
+
+  > img {
+    height: 100%;
+  }
+}
+
+.company-name {
+  margin-left: 24px;
+
+  color: #29fd2f;
+  font-family: 'Courier New';
+  font-weight: 700;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 70em;
+  margin: auto;
+  padding: 0 32px;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.contact-info {
+  text-align: center;
+  margin: 16px 0;
+}
+
+.contact-details {
+  line-height: 1.5em;
+}
+
+.mt-0 {
+  margin-top: 0;
 }
