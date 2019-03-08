@@ -38,6 +38,7 @@ header {
   display: flex;
 
   align-items: center;
+  justify-content: center;
 }
 
 .logo-image {
@@ -47,14 +48,6 @@ header {
   > img {
     height: 100%;
   }
-}
-
-.company-name {
-  margin-left: 24px;
-
-  color: #29fd2f;
-  font-family: 'Courier New';
-  font-weight: 700;
 }
 
 .content {
