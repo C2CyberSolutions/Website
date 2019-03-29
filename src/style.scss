@@ -27,6 +27,8 @@ h2 {
   right: 0;
   bottom: 0;
   left: 0;
+
+  z-index: -1;
 }
 
 header {
@@ -71,6 +73,13 @@ header {
 
 .contact-details {
   line-height: 1.5em;
+}
+
+.sdvosb-logo {
+  max-width: 100px;
+  height: auto;
+
+  padding-top: 1em;
 }
 
 .mt-0 {
